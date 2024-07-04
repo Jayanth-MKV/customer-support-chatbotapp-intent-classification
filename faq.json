@@ -1,0 +1,64 @@
+{
+  "faqs": [
+    {
+      "question": "What are your delivery options?"
+    },
+    {
+      "question": "What is your refund policy?"
+    },
+    {
+      "question": "How can I contact customer service?"
+    },
+    {
+      "question": "What payment methods do you accept?"
+    },
+    {
+      "question": "How do I change my shipping address?"
+    },
+    {
+      "question": "I want to cancel my order"
+    },
+    {
+      "question": "How do I recover my password?"
+    },
+    {
+      "question": "I would like to change my shipping address"
+    },
+    {
+      "question": "What is your cancellation policy?"
+    },
+    {
+      "question": "I need help to change my shipping address"
+    },
+    {
+      "question": "I would like information about a shipping address change"
+    },
+    {
+      "question": "Where can I cancel the last order I made?"
+    },
+    {
+      "question": "I want to know about changing my shipping address"
+    },
+    {
+      "question": "I need help to see the termination fees"
+    },
+    {
+      "question": "I do not know how to cancel an order I have made"
+    },
+    {
+      "question": "I want assistance to see the termination penalty"
+    },
+    {
+      "question": "I need assistance checking the cancellation fees"
+    },
+    {
+      "question": "I want assistance finding the invoices from June"
+    },
+    {
+      "question": "I need assistance finding the invoices from my last purchase"
+    },
+    {
+      "question": "I want assistance finding the invoices from October"
+    }
+  ]
+}
