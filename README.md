@@ -32,7 +32,7 @@ The Customer Support Chatbot is designed to provide quick answers to common quer
 
 ## Demo
 
-You can see a live demo of the chatbot [here](https://faqchatbot.streamlit.app/).
+You can see a live demo of the chatbot [here](https://customer-support-chatbotapp-intent-classification.streamlit.app/).
 
 ## Setup
 
@@ -49,7 +49,7 @@ Ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Jayanth-MKV/FAQ-Chatbot-CustomerSupport.git
+   git clone https://github.com/Jayanth-MKV/customer-support-chatbotapp-intent-classification
    cd customer-support-chatbot
    ```
 
@@ -59,7 +59,7 @@ Ensure you have the following installed:
    poetry install
    ```
 
-4. Run the app:
+3. Run the app:
 
    ```bash
     poetry run streamlit run app.py
