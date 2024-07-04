@@ -3,7 +3,7 @@
 This is a simple AI-driven chatbot built with Streamlit and spaCy to assist users with frequently asked questions (FAQs) related to customer support.
 
 ## Watch Demo
-[![Watch the video](https://img.youtube.com/vi/BXHUBCi_xwY/0.jpg)](https://www.youtube.com/watch?v=BXHUBCi_xwY)
+[![Watch the video](https://img.youtube.com/vi/sImf3MkfvfM/0.jpg)](https://www.youtube.com/watch?v=sImf3MkfvfM)
 
 ## Table of Contents
 
@@ -15,6 +15,7 @@ This is a simple AI-driven chatbot built with Streamlit and spaCy to assist user
   - [Installation](#installation)
   - [Using Docker](#using-docker)
 - [Usage](#usage)
+- [Training](#training)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -58,32 +59,26 @@ Ensure you have the following installed:
    poetry install
    ```
 
-3. Download the spaCy model:
-
-   ```bash
-   python -m spacy download en_core_web_md
-   ```
-
 4. Run the app:
 
    ```bash
     poetry run streamlit run app.py
    ```
 
-### Using Docker
+### Using Docker (recommended)
 
 If you prefer using Docker, you can pull the Docker image and run the application in a container:
 
 1. Pull the Docker image:
 
    ```bash
-    docker pull jayanthmkv/faq-chatbot-spacy
+    docker pull jayanthmkv/customer-support-intent-classification-chatbot:latest
    ```
 
 2. Run the Docker container:
 
    ```bash
-   docker run -p 8501:8501 jayanthmkv/faq-chatbot-spacy
+   docker run -p 8501:8501 jayanthmkv/customer-support-intent-classification-chatbot:latest
    ```
 
 ## Usage
@@ -104,6 +99,60 @@ If you prefer using Docker, you can pull the Docker image and run the applicatio
    - Type your question or select from predefined FAQ buttons.
    - Click "Send" to see the bot's response.
    - The chat history will be displayed in the interface.
+
+## Training
+
+## Obtained 97% accuracy on spacy Kaggle and also nearly 99% with 30 epochs 
+
+### The current intent_model has 99% accuracy
+
+This Uses spaCy for intent classification and Streamlit for the user interface.
+refer these : 
+1. https://www.width.ai/post/spacy-text-classification
+2. https://spacy.io/usage/training
+3. https://www.kaggle.com/jayanthmkv/intent-classify-spacy
+
+### Training the Model
+
+1. Prepare your training data in a CSV file named `intent_data.csv` with columns:
+   - utterance: The user's message
+   - intent: The corresponding intent
+   - category: (optional) Category of the intent
+   - tags: (optional) Any relevant tags
+
+from here ( https://www.kaggle.com/datasets/scodepy/customer-support-intent-dataset )
+
+2. Install required libraries:
+   ```
+      pip install spacy pandas scikit-learn
+   ```
+
+3. Run the training script:
+   ```python
+   python train_model.py
+   ```
+
+   This script will:
+   - Load the data from `intent_data.csv`
+   - Split the data into training and testing sets
+   - Create a spaCy text classification model
+   - Train the model on the data
+   - Save the trained model as "intent_model"
+   - build the application
+
+The chatbot application:
+- Loads the trained spaCy model
+- Uses regular expressions to identify greetings and farewells
+- Classifies other user inputs using the spaCy model
+- Provides responses based on the classified intent
+- Uses a confidence threshold to determine when to use fallback responses
+- Displays the conversation history in a user-friendly interface
+
+## Customization
+
+- Adjust the `CONFIDENCE_THRESHOLD` in `chatbot_app.py` to fine-tune the chatbot's response behavior.
+- Modify the `intents_responses` dictionary in `chatbot_app.py` to change or add specific responses for each intent.
+- Update the greeting and farewell patterns in `chatbot_app.py` to recognize different expressions.
 
 ## Contributing
 
