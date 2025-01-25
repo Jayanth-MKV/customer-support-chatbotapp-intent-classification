@@ -1,0 +1,248 @@
+{
+  "faqs": [
+    {
+      "question": "What is your return policy?",
+      "answer": "Our return policy allows returns within 30 days of purchase."
+    },
+    {
+      "question": "How can I track my order?",
+      "answer": "You can track your order using the tracking link sent to your email."
+    },
+    {
+      "question": "Do you offer customer support?",
+      "answer": "Yes, we offer 24/7 customer support through chat and phone."
+    },
+    {
+      "question": "Can I change my shipping address?",
+      "answer": "Yes, you can change your shipping address before the order is shipped."
+    },
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept credit cards, debit cards, and UPI"
+    },
+    {
+      "question": "How do I reset my password?",
+      "answer": "To reset your password, go to the login page and click 'Forgot Password'. Follow the instructions sent to your email."
+    },
+    {
+      "question": "How I cannot track my order?",
+      "answer": "You cannot track your order using the bill/invoice."
+    },
+    {
+      "question": "Where is my order?",
+      "answer": "You can check the status of your order using the tracking number provided in your order confirmation email."
+    },
+    {
+      "question": "Can I cancel my order?",
+      "answer": "Yes, you can cancel your order within 24 hours of placing it."
+    },
+    {
+      "question": "Do you ship internationally?",
+      "answer": "Yes, we ship to most countries around the world. Shipping fees may vary."
+    },
+    {
+      "question": "How long does shipping take?",
+      "answer": "Shipping typically takes 3-7 business days, depending on your location."
+    },
+    {
+      "question": "How do I apply a discount code?",
+      "answer": "You can apply a discount code at checkout in the 'Promo Code' field."
+    },
+    {
+      "question": "What if my order arrives damaged?",
+      "answer": "If your order arrives damaged, please contact customer support within 48 hours for a replacement or refund."
+    },
+    {
+      "question": "How can I contact customer support?",
+      "answer": "You can contact customer support by emailing support@example.com or calling us at 1-800-123-4567."
+    },
+    {
+      "question": "How do I update my billing information?",
+      "answer": "To update your billing information, log into your account, go to 'Settings', and then 'Billing Information'."
+    },
+    {
+      "question": "Where can I find the user manual?",
+      "answer": "The user manual is available on our website under the 'Resources' section or directly at example.com/user-manual."
+    },
+    {
+      "question": "What is your privacy policy?",
+      "answer": "Our privacy policy can be found at example.com/privacy-policy."
+    },
+    {
+      "question": "How do I subscribe to the newsletter?",
+      "answer": "You can subscribe to our newsletter by entering your email address at the bottom of our homepage."
+    },
+    {
+      "question": "Can I change my order after placing it?",
+      "answer": "You can change your order within 1 hour of placing it by contacting customer support."
+    },
+    {
+      "question": "What are your business hours?",
+      "answer": "Our business hours are Monday to Friday, 9 AM to 5 PM EST."
+    },
+    {
+      "question": "Do you have a physical store?",
+      "answer": "We currently operate exclusively online and do not have a physical store."
+    },
+    {
+      "question": "How can I provide feedback?",
+      "answer": "You can provide feedback by emailing feedback@example.com or through our contact form on the website."
+    },
+    {
+      "question": "What is your exchange policy?",
+      "answer": "Our exchange policy allows exchanges within 30 days of purchase. Items must be in original condition."
+    },
+    {
+      "question": "Do you offer gift cards?",
+      "answer": "Yes, we offer gift cards which can be purchased on our website."
+    },
+    {
+      "question": "Can I expedite my shipping?",
+      "answer": "Yes, expedited shipping options are available at checkout for an additional fee."
+    },
+    {
+      "question": "How do I delete my account?",
+      "answer": "To delete your account, please contact customer support and request account deletion."
+    },
+    {
+      "question": "Do you offer bulk discounts?",
+      "answer": "Yes, we offer bulk discounts for large orders. Please contact sales@example.com for more information."
+    },
+    {
+      "question": "What if I receive the wrong item?",
+      "answer": "If you receive the wrong item, please contact customer support within 48 hours for assistance."
+    },
+    {
+      "question": "How do I unsubscribe from the newsletter?",
+      "answer": "You can unsubscribe from the newsletter by clicking the 'Unsubscribe' link at the bottom of any newsletter email."
+    },
+    {
+      "question": "What is your loyalty program?",
+      "answer": "Our loyalty program rewards you with points for every purchase, which can be redeemed for discounts on future orders."
+    },
+    {
+      "question": "Do you offer free samples?",
+      "answer": "We occasionally offer free samples with orders during promotional periods."
+    },
+    {
+      "question": "How do I update my shipping address?",
+      "answer": "To update your shipping address, log into your account, go to 'Settings', and then 'Shipping Information'."
+    },
+    {
+      "question": "What if I forgot my username?",
+      "answer": "If you forgot your username, please contact customer support for assistance."
+    },
+    {
+      "question": "How do I redeem my loyalty points?",
+      "answer": "You can redeem your loyalty points at checkout by selecting the option to apply points to your purchase."
+    },
+    {
+      "question": "Can I return a gift?",
+      "answer": "Yes, gifts can be returned within 30 days of purchase. The original receipt or gift receipt is required."
+    },
+    {
+      "question": "What is your cancellation policy?",
+      "answer": "Orders can be canceled within 24 hours of placement. After this period, cancellations are not possible."
+    },
+    {
+      "question": "Can I get an invoice for my purchase?",
+      "answer": "Yes, invoices are sent to your email after purchase. You can also request a copy from customer support."
+    },
+    {
+      "question": "How do I change my email address?",
+      "answer": "To change your email address, log into your account, go to 'Settings', and then 'Account Information'."
+    },
+    {
+      "question": "What can I ask you?",
+      "answer": "You can ask me any customer query. Select any FAQ below and I will do my best to assist you."
+    },
+    {
+      "question": "What can you do?",
+      "answer": "You can ask me any customer query. Select any FAQ below and I will do my best to assist you."
+    },
+    {
+      "question": "who r u?",
+      "answer": "I am a chatbot created by Jayanth to answer the customer FAQs."
+    },
+    {
+      "question": "who are you?",
+      "answer": "I am a chatbot created by Jayanth to answer the customer FAQs."
+    },
+    {
+      "question": "Why are you here?",
+      "answer": "I am here to assist you. You can ask me any customer query. Select any FAQ below and I will do my best to assist you."
+    },
+    {
+      "question": "hello",
+      "answer": "Hello! How can I assist you today?"
+    },
+    {
+      "question": "how are you",
+      "answer": "I am good! How can I assist you today?"
+    },
+    {
+      "question": "how r u",
+      "answer": "I am good! How can I assist you today?"
+    },
+    {
+      "question": "hi",
+      "answer": "Hi there! How can I help you?"
+    },
+    
+    {
+      "question": "goodbye",
+      "answer": "Goodbye! Have a great day!"
+    },
+    {
+      "question": "bye",
+      "answer": "Bye! Take care!"
+    },
+    {
+      "question": "okay",
+      "answer": "Is there anything else I can help you with?"
+    },
+    {
+      "question": "see you later",
+      "answer": "See you later! Have a good day!"
+    },
+    {
+      "question": "see you",
+      "answer": "See you! Take care!"
+    },
+    {
+      "question": "talk to you later",
+      "answer": "Talk to you later! Have a great day!"
+    },
+    {
+      "question": "okay thanks",
+      "answer": "Have a good Day! Take care!"
+    },
+    {
+      "question": "Okay Thanks",
+      "answer": "Have a good Day! Take care!"
+    },
+    {
+      "question": "kk",
+      "answer": "Have a good Day! Take care!"
+    },{
+      "question": "hey",
+      "answer": "Hey! What can I do for you today?"
+    },
+    {
+      "question": "good morning",
+      "answer": "Good morning! How can I assist you today?"
+    },
+    {
+      "question": "good afternoon",
+      "answer": "Good afternoon! How can I help you today?"
+    },
+    {
+      "question": "good evening",
+      "answer": "Good evening! What can I do for you today?"
+    },
+    {
+      "question": "good night",
+      "answer": "Good night! Take care!"
+    }
+  ]
+ }
